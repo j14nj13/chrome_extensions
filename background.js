@@ -35,7 +35,7 @@ function sendto(datas){
         data: { data: datas }
     })
    .done(function( msg ) {
-   	    return true;
+   	    return true;  //预留引用外部JS接口
     });
 	return  true;
 }
