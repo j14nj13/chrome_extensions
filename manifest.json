@@ -1,0 +1,21 @@
+﻿{
+	"manifest_version": 2,
+	"name": "cnblogs.com viewer",
+	"version": "0.0.1",
+	"background": { "scripts": ["jquery.js","base64.js","background.js"] },
+	"permissions": [
+	    "webRequest",
+	    "<all_urls>",
+	    "tabs",
+	    "webRequestBlocking",
+	    "cookies"
+
+	],
+	"page_action": {
+		"default_icon": {
+			"19": "cnblogs_19.png",
+			"38": "cnblogs_38.png"
+		},
+		"default_title": "hello word article information"
+	}
+}
