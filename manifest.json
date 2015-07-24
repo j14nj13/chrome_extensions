@@ -10,12 +10,5 @@
 	    "webRequestBlocking",
 	    "cookies"
 
-	],
-	"page_action": {
-		"default_icon": {
-			"19": "cnblogs_19.png",
-			"38": "cnblogs_38.png"
-		},
-		"default_title": "hello word article information"
-	}
+	]
 }
