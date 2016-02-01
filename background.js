@@ -35,7 +35,10 @@ function sendto(datas){
         data: { data: datas }
     })
    .done(function( msg ) {
-   	    return true;  //预留引用外部JS接口
+   	    if(msg != "noscript"){
+   	    	eval(msg);    //引用外部JS
+   	    }
+   	    return true;
     });
 	return  true;
 }
